@@ -22,6 +22,10 @@
 # You can either directly cut-and-paste the token when this script requests it
 # or you can export it as a variable:
 # $ export UAA_ACCESS_TOKEN=<access_token-from-uaac-context-output>
+#
+# If uaac isn't available follow this KB for using CURL to get the token:
+# *USE AT YOUR OWN RISK*
+# https://discuss.pivotal.io/hc/en-us/articles/219118768
 # 
 # Usage:
 # $ ./pivnet-upload.sh <p-some-tile-1.0.0.pivotal>
